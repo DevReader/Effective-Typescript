@@ -4,7 +4,7 @@
 - 타입 단언문 사용
 
   ```typescript
-  declare function shalloEqual(a: any, b: any): boolean;
+  declare function shallowEqual(a: any, b: any): boolean;
 
   function shallowObjectEqaul<T extends object>(a: T, b: T): boolean {
     if (Object.keys(a).length !== Object.keys(b).length) {
